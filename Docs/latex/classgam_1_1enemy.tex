@@ -1,0 +1,78 @@
+\hypertarget{classgam_1_1enemy}{\section{gam\+:\+:enemy Class Reference}
+\label{classgam_1_1enemy}\index{gam\+::enemy@{gam\+::enemy}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classgam_1_1enemy_a0b096526b359efd64a3f190a9b4c83e0}{enemy} ()
+\begin{DoxyCompactList}\small\item\em Enemy Class. \end{DoxyCompactList}\item 
+\hypertarget{classgam_1_1enemy_a84002000744fc519460216242419e8e5}{void {\bfseries spawn\+Pattern} ()}\label{classgam_1_1enemy_a84002000744fc519460216242419e8e5}
+
+\item 
+void \hyperlink{classgam_1_1enemy_a4a2637eebd069e9a82173d2b8bbb3c4e}{spawn\+Enemy} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Spawn the enemy in a specific location. \end{DoxyCompactList}\item 
+\hypertarget{classgam_1_1enemy_acc1da54f010311fcac178e2075fd161d}{void \hyperlink{classgam_1_1enemy_acc1da54f010311fcac178e2075fd161d}{move\+Enemy\+Patterns} ()}\label{classgam_1_1enemy_acc1da54f010311fcac178e2075fd161d}
+
+\begin{DoxyCompactList}\small\item\em Move the enemies. \end{DoxyCompactList}\item 
+\hypertarget{classgam_1_1enemy_af9b44449018ce7aa116568741718717c}{void {\bfseries draw\+Enemy} (S\+D\+L\+\_\+\+Renderer $\ast$Renderer, S\+D\+L\+\_\+\+Texture $\ast$Enemy)}\label{classgam_1_1enemy_af9b44449018ce7aa116568741718717c}
+
+\item 
+\hypertarget{classgam_1_1enemy_a1e8f7ae8451d4fbf625dab35811a013d}{bool \hyperlink{classgam_1_1enemy_a1e8f7ae8451d4fbf625dab35811a013d}{check\+Collisions} (S\+D\+L\+\_\+\+Rect \hyperlink{classgam_1_1bullet}{bullet})}\label{classgam_1_1enemy_a1e8f7ae8451d4fbf625dab35811a013d}
+
+\begin{DoxyCompactList}\small\item\em Check the collisions of each enemy to each bullet. \end{DoxyCompactList}\item 
+\hypertarget{classgam_1_1enemy_a436f415594978735f94686e7ed8fbbcd}{void {\bfseries restart\+Game} ()}\label{classgam_1_1enemy_a436f415594978735f94686e7ed8fbbcd}
+
+\item 
+\hypertarget{classgam_1_1enemy_af4c201eb431a392ef25e9ef456f95e2f}{bool {\bfseries check\+Ship\+Collisions} (S\+D\+L\+\_\+\+Rect ship)}\label{classgam_1_1enemy_af4c201eb431a392ef25e9ef456f95e2f}
+
+\item 
+\hypertarget{classgam_1_1enemy_a8a0055ecb61f9709a036ae697461af81}{void \hyperlink{classgam_1_1enemy_a8a0055ecb61f9709a036ae697461af81}{erase\+Enemy} ()}\label{classgam_1_1enemy_a8a0055ecb61f9709a036ae697461af81}
+
+\begin{DoxyCompactList}\small\item\em Erase each enemy when they're not needed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classgam_1_1enemy_a0b096526b359efd64a3f190a9b4c83e0}{\index{gam\+::enemy@{gam\+::enemy}!enemy@{enemy}}
+\index{enemy@{enemy}!gam\+::enemy@{gam\+::enemy}}
+\subsubsection[{enemy}]{\setlength{\rightskip}{0pt plus 5cm}gam\+::enemy\+::enemy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classgam_1_1enemy_a0b096526b359efd64a3f190a9b4c83e0}
+
+
+Enemy Class. 
+
+This class is to handle the enemies, how they move, collision. \begin{DoxyAuthor}{Author}
+James Robertson 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0a 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2014-\/2015 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+G\+N\+U Public License.\+All of the variables are initilaised in the class 
+\end{DoxyCopyright}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classgam_1_1enemy_a4a2637eebd069e9a82173d2b8bbb3c4e}{\index{gam\+::enemy@{gam\+::enemy}!spawn\+Enemy@{spawn\+Enemy}}
+\index{spawn\+Enemy@{spawn\+Enemy}!gam\+::enemy@{gam\+::enemy}}
+\subsubsection[{spawn\+Enemy}]{\setlength{\rightskip}{0pt plus 5cm}void gam\+::enemy\+::spawn\+Enemy (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{classgam_1_1enemy_a4a2637eebd069e9a82173d2b8bbb3c4e}
+
+
+Spawn the enemy in a specific location. 
+
+int random = rand() \% 800; Place different patterns here that spawn -\/ Type Case statement here with random basing the outcome every 15 seconds (?) -\/ That will be passed through -\/ or called through main 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Jammei/\+James Robertson S\+D\+L Final/\+S\+D\+L\+\_\+\+Game/\+S\+D\+L\+\_\+\+Game/Enemy.\+h\item 
+E\+:/\+Jammei/\+James Robertson S\+D\+L Final/\+S\+D\+L\+\_\+\+Game/\+S\+D\+L\+\_\+\+Game/Enemy.\+cpp\end{DoxyCompactItemize}

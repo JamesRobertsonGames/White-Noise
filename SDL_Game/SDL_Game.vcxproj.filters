@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Audio_Images">
+      <UniqueIdentifier>{8f5b1a57-9f81-4b7a-9196-fe80a992bf64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Headers">
+      <UniqueIdentifier>{a99df7b4-be28-4116-a3f0-baa05064ffb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game_Source">
+      <UniqueIdentifier>{83e6f8bf-ed95-473b-b836-16f12d608482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio_Images">
+      <UniqueIdentifier>{08ff5c78-8747-43f4-b288-68882129c153}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoop.cpp">
+      <Filter>Source Files\Game_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\Audio_Images</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_Operations.cpp">
+      <Filter>Source Files\Audio_Images</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Game_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Game_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Source Files\Game_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGame.cpp">
+      <Filter>Source Files\Game_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Game_Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\Audio_Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_Operations.h">
+      <Filter>Header Files\Audio_Images</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerDefinitions.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunctionDefinitions.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files\Game Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

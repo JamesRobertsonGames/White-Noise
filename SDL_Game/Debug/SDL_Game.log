@@ -1,0 +1,22 @@
+﻿Build started 27/01/2015 14:43:30.
+     1>Project "F:\Finished_Projects\PROJECT_FILES\WhiteNoise\James Robertson SDL Final\SDL_Game\SDL_Game\SDL_Game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"SDL\SDL2-2.0.3\include" /I"I:\SDKs\SDL2-2.0.3\include" /I"SDL\SDL2_mixer-2.0.0\include" /ZI /nologo /W4 /WX- /Od /Oy- /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:fast /Zc:wchar_t /Zc:forScope /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StartGame.cpp
+         StartGame.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Finished_Projects\PROJECT_FILES\WhiteNoise\James Robertson SDL Final\SDL_Game\Debug\SDL_Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"SDL\SDL2-2.0.3\lib\x86" /LIBPATH:"I:\SDKs\SDL2-2.0.3\lib\x86" /LIBPATH:"SDL\SDL2_mixer-2.0.0\lib\x86" SDL2.lib SDL2main.lib SDL2_mixer.lib Xinput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Finished_Projects\PROJECT_FILES\WhiteNoise\James Robertson SDL Final\SDL_Game\Debug\SDL_Game.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Finished_Projects\PROJECT_FILES\WhiteNoise\James Robertson SDL Final\SDL_Game\Debug\SDL_Game.lib" /MACHINE:X86 Debug\Audio.obj
+         Debug\Bullet.obj
+         Debug\Controller.obj
+         Debug\Enemy.obj
+         Debug\GameLoop.obj
+         Debug\main.obj
+         Debug\PowerUp.obj
+         Debug\SDL_Operations.obj
+         Debug\StartGame.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         SDL_Game.vcxproj -> F:\Finished_Projects\PROJECT_FILES\WhiteNoise\James Robertson SDL Final\SDL_Game\Debug\SDL_Game.exe
+     1>Done Building Project "F:\Finished_Projects\PROJECT_FILES\WhiteNoise\James Robertson SDL Final\SDL_Game\SDL_Game\SDL_Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07

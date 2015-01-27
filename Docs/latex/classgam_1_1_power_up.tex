@@ -1,0 +1,69 @@
+\hypertarget{classgam_1_1_power_up}{\section{gam\+:\+:Power\+Up Class Reference}
+\label{classgam_1_1_power_up}\index{gam\+::\+Power\+Up@{gam\+::\+Power\+Up}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classgam_1_1_power_up_a4471b8185823a330a9c5bcdb07f1b58c}{Power\+Up} ()
+\begin{DoxyCompactList}\small\item\em \hyperlink{classgam_1_1_power_up}{Power\+Up} Class. \end{DoxyCompactList}\item 
+void \hyperlink{classgam_1_1_power_up_abe6a85b657c4c56fb70d68703fdb9abb}{spawn\+Power\+Up} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Spawn the \hyperlink{classgam_1_1_power_up}{Power\+Up} in a specific location. \end{DoxyCompactList}\item 
+\hypertarget{classgam_1_1_power_up_a13e72270e42fe3dd5b068f80eb8efaf4}{void \hyperlink{classgam_1_1_power_up_a13e72270e42fe3dd5b068f80eb8efaf4}{move\+Power\+Up} ()}\label{classgam_1_1_power_up_a13e72270e42fe3dd5b068f80eb8efaf4}
+
+\begin{DoxyCompactList}\small\item\em Move the enemies. \end{DoxyCompactList}\item 
+\hypertarget{classgam_1_1_power_up_aa10fa7beaa2414795295e7aa2ddfc405}{void {\bfseries draw\+Power\+Up} (S\+D\+L\+\_\+\+Renderer $\ast$Renderer, S\+D\+L\+\_\+\+Texture $\ast$\hyperlink{classgam_1_1_power_up}{Power\+Up})}\label{classgam_1_1_power_up_aa10fa7beaa2414795295e7aa2ddfc405}
+
+\item 
+\hypertarget{classgam_1_1_power_up_ab9f6298c0d96ccfa66345464a58a1fd7}{bool \hyperlink{classgam_1_1_power_up_ab9f6298c0d96ccfa66345464a58a1fd7}{check\+Collisions} (S\+D\+L\+\_\+\+Rect ship)}\label{classgam_1_1_power_up_ab9f6298c0d96ccfa66345464a58a1fd7}
+
+\begin{DoxyCompactList}\small\item\em Check the collisions of each \hyperlink{classgam_1_1_power_up}{Power\+Up} to each bullet. \end{DoxyCompactList}\item 
+\hypertarget{classgam_1_1_power_up_a73cafdaf54d9e72a50b30718639cef88}{void \hyperlink{classgam_1_1_power_up_a73cafdaf54d9e72a50b30718639cef88}{erase\+Power\+Up} ()}\label{classgam_1_1_power_up_a73cafdaf54d9e72a50b30718639cef88}
+
+\begin{DoxyCompactList}\small\item\em Erase each \hyperlink{classgam_1_1_power_up}{Power\+Up} when they're not needed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classgam_1_1_power_up_a4471b8185823a330a9c5bcdb07f1b58c}{\index{gam\+::\+Power\+Up@{gam\+::\+Power\+Up}!Power\+Up@{Power\+Up}}
+\index{Power\+Up@{Power\+Up}!gam\+::\+Power\+Up@{gam\+::\+Power\+Up}}
+\subsubsection[{Power\+Up}]{\setlength{\rightskip}{0pt plus 5cm}gam\+::\+Power\+Up\+::\+Power\+Up (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classgam_1_1_power_up_a4471b8185823a330a9c5bcdb07f1b58c}
+
+
+\hyperlink{classgam_1_1_power_up}{Power\+Up} Class. 
+
+This class is to handle the powerups, how they move, collision. \begin{DoxyAuthor}{Author}
+James Robertson 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0a 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2014-\/2015 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+G\+N\+U Public License.\+All of the variables are initilaised in the class 
+\end{DoxyCopyright}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classgam_1_1_power_up_abe6a85b657c4c56fb70d68703fdb9abb}{\index{gam\+::\+Power\+Up@{gam\+::\+Power\+Up}!spawn\+Power\+Up@{spawn\+Power\+Up}}
+\index{spawn\+Power\+Up@{spawn\+Power\+Up}!gam\+::\+Power\+Up@{gam\+::\+Power\+Up}}
+\subsubsection[{spawn\+Power\+Up}]{\setlength{\rightskip}{0pt plus 5cm}void gam\+::\+Power\+Up\+::spawn\+Power\+Up (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{classgam_1_1_power_up_abe6a85b657c4c56fb70d68703fdb9abb}
+
+
+Spawn the \hyperlink{classgam_1_1_power_up}{Power\+Up} in a specific location. 
+
+int random = rand() \% 800; Place different patterns here that spawn -\/ Type Case statement here with random basing the outcome every 15 seconds (?) -\/ That will be passed through -\/ or called through main 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+E\+:/\+Jammei/\+James Robertson S\+D\+L Final/\+S\+D\+L\+\_\+\+Game/\+S\+D\+L\+\_\+\+Game/Power\+Up.\+h\item 
+E\+:/\+Jammei/\+James Robertson S\+D\+L Final/\+S\+D\+L\+\_\+\+Game/\+S\+D\+L\+\_\+\+Game/Power\+Up.\+cpp\end{DoxyCompactItemize}
