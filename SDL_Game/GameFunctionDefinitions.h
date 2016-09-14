@@ -1,13 +1,11 @@
 #pragma once
 
-#include <SDL.h>
+#include "SDL/SDL2-2.0.3/include/SDL.h"
 #include "SDL_Operations.h"
 #include "Bullet.h"
-#include "ControllerDefinitions.h"
 #include "Enemy.h"
 #include <string>
 #include <vector>
-#include "Audio.h"
 #include "PowerUp.h"
 
 void update(SDL_Renderer * Renderer, SDL_Rect &destRect, SDL_Texture * texture);

@@ -1,6 +1,6 @@
 #pragma once
 
-#include <SDL.h>
+#include "GameFunctionDefinitions.h"
 
 namespace gam
 {

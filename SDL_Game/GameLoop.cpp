@@ -13,7 +13,7 @@ void gameLoop()
 	XINPUT_VIBRATION vibration;
 
 	// Open the audio
-	Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);
+//	Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048);
 
 	// Hide the cursor on screen
 	SDL_ShowCursor(SDL_DISABLE);
@@ -35,9 +35,6 @@ void gameLoop()
 	bool powerupspawned2 = false;
 	bool death = false;
 	bool pause = false;
-	
-	// Assign the result of "is there a controller" to a boolean
-	bool controllerConnection = controllerIsConnected(state, vibration);
 
 	// Set the unsigned integers to default values
 	uint8_t gameState = 1;
@@ -165,8 +162,7 @@ void gameLoop()
 		// If the controller is connected then use that!
 		else
 		{
-			// Poll the Controller input
-			CheckControllerStatus(shipRect, state, bulletTimer, Bullet, bulletAmount);
+			
 		}
 		// If this is out of the code then the game crashes I find.
 		SDL_Event incomingEvent;
@@ -402,5 +398,5 @@ void gameLoop()
 
 	// SDL Cleanup process
 	SDL_Quit();
-	Mix_Quit();
+//	Mix_Quit();
 }

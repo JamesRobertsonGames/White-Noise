@@ -1,9 +1,7 @@
 #pragma once
-#include <SDL.h>
-#include <SDL_mixer.h>
+#include "SDL/SDL2-2.0.3/include/SDL.h" 
 #include <iostream>
 #include <stdint.h>
-#include <Windows.h>
 
 SDL_Window *window();
 SDL_Renderer *renderer(SDL_Window *window);
