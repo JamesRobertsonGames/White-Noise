@@ -85,7 +85,7 @@ void movement(SDL_Rect &player, XINPUT_STATE &state)
 	playerOne.leftStick_X = state.Gamepad.sThumbLX;
 
 	// Set the Deadzones for the stick
-	const int16_t DEADZONE = 5000;
+	const int16_t DEADZONE = 3000;
 
 	// Deadzone Setting
 	if (state.Gamepad.sThumbLY < DEADZONE && state.Gamepad.sThumbLY > -DEADZONE)
